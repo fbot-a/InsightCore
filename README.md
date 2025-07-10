@@ -7,6 +7,17 @@ It is not a plug-and-play trading bot — it is a low-level framework that helps
 This version includes a minimal example using RSI and EMA.  
 Future versions can integrate machine learning models, broker adapters (e.g. MT5 bridge), and real-time data handling.
 
+## ⚠️ Important — How to Run
+
+After building the project (e.g. via Visual Studio or CMake),  
+make sure that `config.json` is located in the **same folder** as the compiled binary `insightcore.exe`.
+
+/InsightCore/build/x64-Debug/
+├── insightcore.exe
+├── config.json ✅ ← place it here
+
+📦 You can copy `config.json` from the root of the repository manually after building.
+
 ---
 
 ## ✅ Key Components
