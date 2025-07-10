@@ -1,10 +1,11 @@
 # InsightCore
 
-**InsightCore** is a lightweight, modular C++ engine for building algorithmic trading systems.  
-It is designed as a core logic module ("trading brain") to analyze market data, run strategies, manage risk, and return trade signals.
+InsightCore is a lightweight, modular C++ engine for **developing algorithmic trading logic**.
 
-This version includes a minimal working implementation using RSI and EMA logic.  
-Future versions can be extended with machine learning models, broker adapters, and real-time execution systems.
+It is not a plug-and-play trading bot — it is a low-level framework that helps you design and structure your own strategies, risk models, and decision-making systems.
+
+This version includes a minimal example using RSI and EMA.  
+Future versions can integrate machine learning models, broker adapters (e.g. MT5 bridge), and real-time data handling.
 
 ---
 
