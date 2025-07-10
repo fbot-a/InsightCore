@@ -35,8 +35,8 @@ InsightCore/
 ## ⚙️ Build & Run
 
 ```bash
-git clone https://github.com/fbot-a/InsightCore-SB.git
-cd InsightCore-SB
+git clone https://github.com/fbot-a/InsightCore.git
+cd InsightCore
 mkdir build && cd build
 cmake ..
 make
