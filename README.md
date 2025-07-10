@@ -12,11 +12,11 @@ Future versions can integrate machine learning models, broker adapters (e.g. MT5
 After building the project (e.g. via Visual Studio or CMake),  
 make sure that `config.json` is located in the **same folder** as the compiled binary `insightcore.exe`.
 
+📦 You can copy `config.json` from the root of the repository manually after building.
+
 /InsightCore/out/build/x64-Debug/
 ├── insightcore.exe
 ├── config.json ✅ ← place it here
-
-📦 You can copy `config.json` from the root of the repository manually after building.
 
 ---
 
